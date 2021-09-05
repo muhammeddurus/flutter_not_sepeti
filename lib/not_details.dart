@@ -260,36 +260,3 @@ class _NotDetayState extends State<NotDetay> {
   }
 }
 
-/*Form(
-        key: formKey,
-        child: Column(
-          children: [
-            Center(
-              child: Container(
-                child: DropdownButtonHideUnderline(
-                  child: tumKategoriler!.length <= 0
-                      ? CircularProgressIndicator()
-                      : DropdownButton<int>(
-                          value: kategoriID,
-                          items: kategoriItemleriOlustur(),
-                          onChanged: (secilenKategoriId) {
-                            setState(() {
-                              kategoriID = secilenKategoriId!;
-                            });
-                          },
-                        ),
-                ),
-                padding: EdgeInsets.symmetric(vertical: 4, horizontal: 20),
-                margin: EdgeInsets.all(12),
-                decoration: BoxDecoration(
-                  border: Border.all(color: Colors.redAccent, width: 2),
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(10),
-                  ),
-                ),
-              ),
-            ),
-          ],
-        ),
-      ),
- */
