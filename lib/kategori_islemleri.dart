@@ -180,15 +180,7 @@ class _KategorilerState extends State<Kategoriler> {
                           Navigator.pop(context);
                         }
                       });
-                      /*databaseHelper!
-                          .kategoriEkle(Kategori(guncellenecekKategoriAdi))
-                          .then((kategoriID) {
-                        if (kategoriID > 0) {
-                          ScaffoldMessenger.of(context).showSnackBar(snackBar);
-                        }
-
-                        Navigator.pop(context);
-                      });*/
+                     
                     }
                   },
                   style: ButtonStyle(
